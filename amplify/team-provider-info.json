@@ -15,7 +15,7 @@
       "function": {
         "GetUsers": {
           "deploymentBucketName": "amplify-floydfamilyfinances-staging-213608-deployment",
-          "s3Key": "amplify-builds/GetUsers-384a315332574b31366a-build.zip"
+          "s3Key": "amplify-builds/GetUsers-346c784d573762675a52-build.zip"
         }
       },
       "api": {
