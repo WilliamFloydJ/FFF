@@ -1,0 +1,43 @@
+{
+  "api": {
+    "serverfff": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "GetUsers"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "GetUsers": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_GetUsers_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "GetUsers"
+        }
+      ]
+    },
+    "AMPLIFY_function_GetUsers_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "GetUsers"
+        }
+      ]
+    }
+  }
+}

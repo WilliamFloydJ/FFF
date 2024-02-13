@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-floydfamilyfinances-staging-213608-authRole",
+      "UnauthRoleArn": "arn:aws:iam::319875037943:role/amplify-floydfamilyfinances-staging-213608-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::319875037943:role/amplify-floydfamilyfinances-staging-213608-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-floydfamilyfinances-staging-213608-deployment",
+      "UnauthRoleName": "amplify-floydfamilyfinances-staging-213608-unauthRole",
+      "StackName": "amplify-floydfamilyfinances-staging-213608",
+      "StackId": "arn:aws:cloudformation:us-west-2:319875037943:stack/amplify-floydfamilyfinances-staging-213608/69216450-ca29-11ee-8189-06761d364a43",
+      "AmplifyAppId": "d38wnjdg4uxc48"
+    },
+    "categories": {
+      "function": {
+        "GetUsers": {
+          "deploymentBucketName": "amplify-floydfamilyfinances-staging-213608-deployment",
+          "s3Key": "amplify-builds/GetUsers-384a315332574b31366a-build.zip"
+        }
+      },
+      "api": {
+        "serverfff": {}
+      }
+    }
+  }
+}

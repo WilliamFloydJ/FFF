@@ -42,7 +42,7 @@
   opacity: 0;
   transform: translateY(2vw);
   transition: transform 1s, opacity 0.25s;
-  filter: drop-shadow(0.1vw 0.1vw 0.1vw #ffffff);
+  filter: drop-shadow(0.1vw 0.1vw #ffffff);
 }
 
 .Links > *:hover > * {
